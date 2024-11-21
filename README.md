@@ -26,4 +26,8 @@ Requisitos
 
 Pasos
 1. Clona el repositorio:
-git clone](https://github.com/TheoZL/geek_project.git)
+
+		git clone](https://github.com/TheoZL/geek_project.git)
+2. Accede al directorio del proyecto:
+
+   		cd alurageek
