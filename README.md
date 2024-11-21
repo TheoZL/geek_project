@@ -26,4 +26,4 @@ Requisitos
 
 Pasos
 1. Clona el repositorio:
-2.     git clone
+git clone](https://github.com/TheoZL/geek_project.git)
