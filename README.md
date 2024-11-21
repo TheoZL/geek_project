@@ -30,4 +30,37 @@ Pasos
 		git clone](https://github.com/TheoZL/geek_project.git)
 2. Accede al directorio del proyecto:
 
-   		cd alurageek
+   		cd geek_project
+3. Instala las dependencias necesarias:
+
+		npm install
+4. Ejecuta el servidor JSON:
+
+   		npm start
+5. Abre index.html en tu navegador.
+
+## 📂 Estructura del Proyecto
+
+	•	📄 index.html: Estructura de la aplicación.
+	•	✨ styles/reset.css: Reinicio de estilos.
+	•	🎨 styles/style.css: Estilos personalizados.
+	•	⚙️ js/controllers/main.js: Lógica de agregar y eliminar productos.
+	•	📡 js/services/product-services.js: Solicitudes HTTP (GET, POST, DELETE).
+	•	🗄️ db.json: Base de datos simulada para json-server.
+	•	📦 package.json: Dependencias y scripts.
+
+## 🛠️ API Simulada
+
+json-server simula una API RESTful con las siguientes rutas:
+	•	GET /products: Lista los productos.
+	•	POST /products: Crea un nuevo producto.
+	•	DELETE /products/:id: Elimina un producto.
+ 
+ ## 🎮 Uso de la Aplicación
+
+	1.	Visualizar Productos: Los productos se cargan automáticamente desde el servidor simulado al abrir la página.
+	2.	Agregar Producto: Completa el formulario con nombre, precio y URL de la imagen, luego haz clic en “Enviar”.
+	3.	Eliminar Producto: Haz clic en el ícono de la papelera para eliminar un producto.
+ 
+ -------------------------------------------------------------------------------------------------------------------------------
+ Desarrollada por Theo Zuñiga
