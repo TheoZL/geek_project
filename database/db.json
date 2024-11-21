@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "48f6",
+      "name": "Pop Up Parade - Sukuna (Jujutsu Kaisen)",
+      "price": "50",
+      "image": "https://ciudadmangacr.com/cdn/shop/files/2518-product-64263e037fb80-42.500-4580416945530-1.jpg?v=1709058326"
+    },
+    {
+      "id": "1ea2",
+      "name": "S.H.Figuarts - Naruto Uzumaki",
+      "price": "60",
+      "image": "https://tamashiiweb.com/images/item/item_0000014255_ftPPJG2y_01.jpg"
+    },
+    {
+      "id": "0e50",
+      "name": "Banpresto Vibration Stars - Kurapika - ver. 2 (Hunter x Hunter)",
+      "price": "60",
+      "image": "https://images.bigbadtoystore.com/images/p/full/2024/08/5362c5db-19c4-4015-a062-305a88230422.jpg"
+    },
+    {
+      "id": "ad5d",
+      "name": "S.H.Figuarts  - Monkey D. Luffy - Future Island Egghead",
+      "price": "70",
+      "image": "https://tamashiiweb.com/images/item/item_0000015168_CYb3XrWG_03.jpg"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<title>GeekProject</title>
+</head>
+<body>
+	 <header class="header">
+        <img src="./assets/Logo.svg" alt="logo" />
+    </header>
+    <main class="main">
+        <section>
+            <h1>Productos:</h1>
+            <div data-product class="products"></div>
+        </section>
+        <section>
+            <h1>Crear Producto:</h1>
+            <form class="container" data-form>
+                <input data-name placeholder="nombre" type="text">
+                <input data-price placeholder="precio" type="text">
+                <input data-image placeholder="imagen" type="text">
+                <span data-mensage class="mensajeError"></span>
+                <div class="button_container">
+                    <button type="submit" class="button_submit" id="button"> Enviar</button>
+                    <button type="reset" class="button_clear" id="button">Limpiar</button>
+                </div>
+            </form>
+            
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div>
+            <img src="./assets/Logo.svg" />
+        </div>
+        <p> Desarollado por Theo Zuñiga</p>
+    </footer>
+	<script type="module" src="js/controllers/main.js"></script>
+</body>
+</html>
